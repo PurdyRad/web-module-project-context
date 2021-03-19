@@ -1,6 +1,10 @@
 import React from 'react';
+import {ProductContext} from '../contextors/ProductContext';
+
+
 
 const Item = props => {
+	
 	return (
 		<div className="shopping-cart_item">
 			<img src={props.image} alt={`${props.title} book`} />
